@@ -1,4 +1,4 @@
-import { QuackBehavior } from "../interfaces/QuackBehavior";
+import { QuackBehavior } from "../../interfaces/QuackBehavior";
 
 export class Squeak implements QuackBehavior {
   quack() {

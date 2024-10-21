@@ -1,4 +1,4 @@
-import { FlyBehavior } from "../interfaces/FlyBehavior";
+import { FlyBehavior } from "../../interfaces/FlyBehavior";
 
 export class FlyRocketPowered implements FlyBehavior {
   fly() {

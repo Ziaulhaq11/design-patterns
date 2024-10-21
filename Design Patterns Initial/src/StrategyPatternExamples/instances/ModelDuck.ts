@@ -1,6 +1,6 @@
 import { Duck } from "../Duck";
-import { FlyNoWay } from "../subclasses/FlyNoWay";
-import { Quack } from "../subclasses/Quack";
+import { FlyNoWay } from "../subclasses/fly/FlyNoWay";
+import { Quack } from "../subclasses/quack/Quack";
 
 export class ModelDuck extends Duck {
   constructor() {

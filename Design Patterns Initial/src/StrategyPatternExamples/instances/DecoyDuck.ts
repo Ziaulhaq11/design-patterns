@@ -1,6 +1,6 @@
 import { Duck } from "../Duck";
-import { FlyNoWay } from "../subclasses/FlyNoWay";
-import { MuteQuack } from "../subclasses/MuteQuack";
+import { FlyNoWay } from "../subclasses/fly/FlyNoWay";
+import { MuteQuack } from "../subclasses/quack/MuteQuack";
 
 export class DecoyDuck extends Duck {
   constructor() {

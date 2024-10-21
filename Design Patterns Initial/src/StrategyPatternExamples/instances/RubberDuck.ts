@@ -1,8 +1,8 @@
 import { Duck } from "../Duck";
 import { FlyBehavior } from "../interfaces/FlyBehavior";
 import { QuackBehavior } from "../interfaces/QuackBehavior";
-import { FlyNoWay } from "../subclasses/FlyNoWay";
-import { Squeak } from "../subclasses/Squeak";
+import { FlyNoWay } from "../subclasses/fly/FlyNoWay";
+import { Squeak } from "../subclasses/quack/Squeak";
 
 export class RubberDuck extends Duck {
   //Here we're by default assigning FlyNoway and Squeak, but then user can overwrite this.

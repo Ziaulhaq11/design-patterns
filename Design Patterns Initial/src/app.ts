@@ -1,6 +1,6 @@
 import { MallardDuck } from "./StrategyPatternExamples/instances/MallardDuck";
 import { ModelDuck } from "./StrategyPatternExamples/instances/ModelDuck";
-import { FlyRocketPowered } from "./StrategyPatternExamples/subclasses/FlyRocketPowered";
+import { FlyRocketPowered } from "./StrategyPatternExamples/subclasses/fly/FlyRocketPowered";
 import { FlyBehavior } from "./StrategyPatternExamples/interfaces/FlyBehavior";
 import { QuackBehavior } from "./StrategyPatternExamples/interfaces/QuackBehavior";
 import { RubberDuck } from "./StrategyPatternExamples/instances/RubberDuck";
