@@ -1,6 +1,8 @@
+import DroneAdapter from "./adapters/DroneAdapter";
 import DuckAdapter from "./adapters/DuckAdapter";
 import TurkeyAdapter from "./adapters/TurkeyAdapter";
 import MallardDuck from "./instances/MallardDuck";
+import SuperDrone from "./instances/SuperDrone";
 import WildTurkey from "./instances/WildTurkey";
 import Duck from "./interfaces/Duck";
 
@@ -14,7 +16,7 @@ export const abstractPatternTest = () => {
   wild.fly();*/
 
   //DUCK TEST WITH ADAPTERS
-  const duck = new MallardDuck();
+  /*const duck = new MallardDuck();
   const turkey = new WildTurkey();
   
   const turkeyAdapter = new TurkeyAdapter(turkey);
@@ -27,7 +29,7 @@ export const abstractPatternTest = () => {
   testDuck(duck)
 
   console.log("\nThe Turkey Adapter says.....");
-  testDuck(turkeyAdapter);
+  testDuck(turkeyAdapter);*/
 
   //TURKEY TEST WITH ADAPTERS
   /*const duck = new MallardDuck();
@@ -40,8 +42,13 @@ export const abstractPatternTest = () => {
     duckAdapter.fly()
   }*/
 
+  //CHALLENGE
+  const drone = new SuperDrone()
+  const droneAdapter = new DroneAdapter(drone);
+  testDuck(droneAdapter)
 };
 
+//Testing Function of Ducks
 const testDuck = (duck: Duck) => {
   duck.quack()
   duck.fly()
