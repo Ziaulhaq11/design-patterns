@@ -4,11 +4,7 @@ import WeatherStationInterface from "../interfaces/WeatherStation";
 
 export default class SimpleWeatherStation implements WeatherStationInterface {
   private observers : Observer[] = []
-  private weather: Weather = {
-    pressure: 1,
-    temperature: 30,
-    windSpeed : 40
-  }
+  private weather: Weather;
   registerObserver = (observer: Observer) => {
     this.observers.push(observer)
   }

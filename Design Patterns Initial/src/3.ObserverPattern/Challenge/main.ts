@@ -1,7 +1,7 @@
-import AlertSystem from "./instances/AlertSystemWeatherStation";
-import LoggerWeatherStation from "./instances/LoggerWeatherStation";
+import AlertSystem from "./instances/AlertDisplay";
+import LoggerWeatherStation from "./instances/LoggerDisplay";
 import SimpleWeatherStation from "./instances/SimpleWeatherStation";
-import UserInterface from "./instances/UserInterfaceObserver";
+import UserInterface from "./instances/UserInterfaceDisplay";
 
 export function observerChallenge() {
   const weatherForecast = new SimpleWeatherStation()
