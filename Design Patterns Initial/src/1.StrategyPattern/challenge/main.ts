@@ -1,8 +1,8 @@
-import { BasicCameraApp } from "../challenge/instances/BasicCameraApp";
-import { CameraPlusApp } from "../challenge/instances/CameraPlusApp";
-import { EmailShare } from "../challenge/subclasses/EmailShare";
-import { SocialMediaShare } from "../challenge/subclasses/SocialMediaShare";
-import { TextShare } from "../challenge/subclasses/TextShare";
+import { BasicCameraApp } from "./instances/BasicCameraApp";
+import { CameraPlusApp } from "./instances/CameraPlusApp";
+import { EmailShare } from "./subclasses/EmailShare";
+import { SocialMediaShare } from "./subclasses/SocialMediaShare";
+import { TextShare } from "./subclasses/TextShare";
 import { Share } from "./interface/ShareMethodEnum";
 
 export default function challenge(shareMethod: Share) {

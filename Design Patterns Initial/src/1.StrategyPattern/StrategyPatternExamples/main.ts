@@ -1,10 +1,10 @@
-import { MallardDuck } from "../StrategyPatternExamples/instances/MallardDuck";
-import { ModelDuck } from "../StrategyPatternExamples/instances/ModelDuck";
-import { FlyRocketPowered } from "../StrategyPatternExamples/subclasses/fly/FlyRocketPowered";
-import { FlyBehavior } from "../StrategyPatternExamples/interfaces/FlyBehavior";
-import { QuackBehavior } from "../StrategyPatternExamples/interfaces/QuackBehavior";
-import { RubberDuck } from "../StrategyPatternExamples/instances/RubberDuck";
-import { DecoyDuck } from "../StrategyPatternExamples/instances/DecoyDuck";
+import { MallardDuck } from "./instances/MallardDuck";
+import { ModelDuck } from "./instances/ModelDuck";
+import { FlyRocketPowered } from "./subclasses/fly/FlyRocketPowered";
+import { FlyBehavior } from "./interfaces/FlyBehavior";
+import { QuackBehavior } from "./interfaces/QuackBehavior";
+import { RubberDuck } from "./instances/RubberDuck";
+import { DecoyDuck } from "./instances/DecoyDuck";
 
 export default function strategyPattern() {
   //Mallard Duck

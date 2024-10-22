@@ -1,6 +1,6 @@
-import strategyPattern from "./StrategyPatternExamples/main";
-import { Share } from "./challenge/interface/ShareMethodEnum";
-import challenge from "./challenge/main";
+import strategyPattern from "./1.StrategyPattern/StrategyPatternExamples/main";
+import { Share } from "./1.StrategyPattern/challenge/interface/ShareMethodEnum";
+import challenge from "./1.StrategyPattern/challenge/main";
 
 // strategyPattern()
 challenge(Share.email)
