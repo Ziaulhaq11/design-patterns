@@ -1,7 +1,7 @@
-import Decorator from "../Decorator";
+import ToppingDecorator from "../ToppingDecorator";
 import Pizza from "../Pizza";
 
-export default class Peppers extends Decorator {
+export default class Peppers extends ToppingDecorator {
   pizza: Pizza;
   constructor(pza: Pizza) {
     super();
