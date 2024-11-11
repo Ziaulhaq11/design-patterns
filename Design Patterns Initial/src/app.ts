@@ -6,6 +6,7 @@ import { observerChallenge } from "./3.ObserverPattern/Challenge/main";
 import { observerPattern } from "./3.ObserverPattern/Examples/main";
 import decoratorTest from "./4.Decorators/Examples/main";
 import DecoratorChallenge from "./4.Decorators/challenge/main";
+import builderTest from "./5.BuildertPattern/main";
 
 
 // strategyPattern()
@@ -13,4 +14,5 @@ import DecoratorChallenge from "./4.Decorators/challenge/main";
 // observerPattern();
 // observerChallenge()
 // decoratorTest()
-DecoratorChallenge()
+// DecoratorChallenge()
+builderTest()
